@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="329.0" prefWidth="329.0">
+         <children>
+            <Button layoutX="101.0" layoutY="140.0" mnemonicParsing="false" onAction="#guessTheNumber" text="bandau atspeti!" />
+            <Label layoutX="82.0" layoutY="67.0" prefHeight="17.0" prefWidth="149.0" text="Atspekit skaiciu nuo 1 - 10" />
+            <TextField fx:id="input" layoutX="76.0" layoutY="96.0" />
+            <Label fx:id="text" layoutX="60.0" layoutY="217.0" prefHeight="66.0" prefWidth="180.0">
+               <font>
+                  <Font size="11.0" />
+               </font></Label>
+            <Button layoutX="124.0" layoutY="192.0" mnemonicParsing="false" onAction="#stopButton" text="BAIGTI" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
